@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Oswald:700|Lato:400&display=swap');
+
+:root {
+  --primary: #f28b20;
+  --secondary: #1a365d;
+  --background: #f9fafb;
+  --accent: #ffe7c2;
+}
+
+body {
+  background-image: url("https://berriosi.cl/images/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+h1, h2 {
+  color: var(--primary);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: #555;
+}
+
+#tiemporestante {
+  border: 5px dotted var(--secondary);
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: var(--secondary);
+  background-color: var(--accent);
+  text-align: center;
+}
+
+footer {
+  border-top: 2px solid #e3e3e3;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+  font-size: 16px;
+}
